@@ -1,0 +1,524 @@
+* {margin: 0; padding: 0;
+    overflow:scroll;
+    box-sizing: border-box;
+ }
+
+
+ body{
+     font-family: "serenity";
+     
+ }
+header{
+    background-color: #df272a;
+}
+.icono{display: none;}
+.logo{
+    width: 4%;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+nav a {
+   
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 50px;
+ }	
+
+nav{
+ position: absolute;top: 3%; margin-left:25%; 
+}
+
+nav a:hover{color: rgb(255, 255, 255); text-decoration:underline; }
+a{  color:white;}
+
+
+.contenedor1{
+    display: flex;
+    flex-direction: wrap;
+    justify-content:end;
+    width: 70%;
+    margin: 10px;
+    position: relative;
+    left: 8%;
+    
+  }
+
+.perfil{
+    width: 40%;
+    
+}
+.texto{
+   border: 2px solid black;
+    background-color: #df272a;
+    padding: 2px;
+}
+h1{
+    color: white;
+    font-size: 40px;   
+    padding: 40px
+}
+
+p{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 80%;
+    right: 5%;
+    padding: 3px;
+    width: 30%;
+}
+.redes a{ 
+    font-size: 30px;
+}
+.linea{
+    opacity: 50%;
+    width: 20px;
+   
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    background-color: #df272a;
+   border: 2px solid black;
+   border-radius: 25px;
+   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.195);
+   width: 70%;
+   position:relative;
+   left: 16%;
+
+}
+.sobre{
+    color: white;
+    font-size: 20px; 
+    padding: 5px;
+    width:35%;
+}
+.sobre h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sobre p{
+    font-size: 20px;
+    padding:4px;
+    text-align: justify;
+    display: flex;
+    justify-content: start;
+    
+}
+.formacion{
+    color: white;
+    font-size: 20px; 
+    width: 35%;
+    padding: 8px;
+    
+    
+}
+.formacion h3{
+   text-align: center;
+   font-size: 30px;
+   
+}
+.formacion p{
+    font-size: 20px;
+    text-align: justify;
+    padding: 2px;
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 25px;
+    padding:12px;
+}
+.discos{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    width: 70%;
+    background-color: #df272a;
+    margin-left: 15%;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.474);
+
+
+}
+.discos img{
+    width: 100%;
+    padding: 10px;
+}
+p1{
+    
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+p2{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.item{
+    display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   
+}
+
+
+ h2{
+    font-size: 42px;
+    padding: 5px;
+    margin: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+  
+ }
+ h4{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+ }
+ .tv{
+    color: white;
+    font-size: 20px; 
+    background-color: #df272a;
+    width: 20%;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.474);
+   
+ }
+ p4{
+     display: flex;
+     justify-content: center;
+ }
+
+ .cine{
+   color: white;
+   font-size: 20px;
+   background-color: #df272a;
+   width: 20%;
+   height: 20%;
+   border: 2px solid black;
+   border-radius: 4px;
+   padding: 10px;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.474);
+  
+ }
+
+ .teatro{
+     color: white;
+     font-size: 20px;
+     background-color: #df272a;
+     width: 30%;
+     border: 2px solid black;
+     border-radius: 4px;
+     padding: 10px;
+     border-radius: 20px;
+     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.474);
+    
+ }
+.estrella{
+    background-color:#df272a;
+    width: 70%;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 12%;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.474);
+  
+}
+
+.estrella img{
+    width: 120%;
+}
+.estrella p{
+    font-size: 20px;
+    text-justify: justify;
+    padding: 35px;
+   
+}
+
+footer{
+    background-color:#df272a;
+    padding: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top:  50px;
+   
+}
+
+@media(min-width:601px) and (max-width:990px){
+    header{ height:70px;border-bottom: 2px solid white; }
+    nav{
+        top:15px;width: 100%; margin-left: 155px;
+    }
+    nav a{padding: 10px;}
+.logo{ width: 6%;}
+.contenedor1{margin-left: 0%; width: 90%;}
+h1{width: 100%; margin:1px} 
+.redes{font-size: 20px;top: 75%;left: 10%;}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    position:relative;
+    left: 13%;
+}
+.linea{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: 50%;
+    bottom:-1%;
+    padding: 0px;
+    width: 7%;   
+ }
+.sobre{
+    padding: 5px;
+    width:100%;
+}
+.sobre h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.sobre p{
+    font-size: 25px;
+    padding:5px;
+    text-align: justify;
+    display: flex;
+    justify-content: start;
+}
+.formacion{  
+    width: 100%;
+    padding: 5px;     
+}
+.formacion h3{ font-size: 30px;}
+.h4{font-size: 50px;}
+.formacion p{
+    font-size:25px;
+    text-align: justify;
+    padding: 2px;
+}
+
+.discos{  display: flex;
+          flex-direction:column;
+          width: 50%;
+}
+.item{
+    display: flex;
+   flex-direction: column;
+  padding: 5px;
+
+}
+ .tv{
+    font-size: 35px;  
+    width: 80%; 
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+ } 
+ .cine{
+    font-size: 35px;  
+    width: 80%; 
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+ }
+ .teatro{
+    font-size: 35px;  
+    width: 80%; 
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;}
+
+    
+.estrella{
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+}
+
+.estrella img{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.estrella p{
+    padding: 5px;
+    font-size: 35px;
+    text-justify: center;
+}
+h4{
+    font-size: 45px;
+    
+    
+ }
+@media(max-width:600px){
+    header{ height:50px;border-bottom: 2px solid white; }
+
+.icono{font-size: 40px ; color:white;display: block; position:absolute; top: 5px; left: 3px;}
+	nav { z-index:10;position: absolute;width: 100%;background-color:#df272a;display: none;margin:0px;}
+	nav a {display: flex; margin:0px 0; width: 100%; background-color:#df272a;font-size: 25px;padding:15px}
+	.menucelular{display: block;top: 50px;}
+   
+
+.logo{
+        width: 10%;
+        position: relative;
+        left: 45%;
+    }
+.contenedor1{ width: 80% ;flex-direction: column;}
+
+h1{font-size: 20px;  
+   padding: 0px;
+width: 100%;
+text-align: center;}
+
+p{font-size: 13px;
+width: 100%;}
+
+.perfil{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes{
+    top:74%;
+    right: 0%;
+    padding: 0px;
+    width: 50%;
+}
+.redes a{
+    font-size: 20px;
+}
+    
+.linea{
+   transform: rotate(-90deg);
+   position: absolute;
+   left: 50%;
+   bottom:26%;
+   padding: 0px;   
+   
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   position:relative;
+   left: 13%;
+
+}
+.sobre{
+    padding: 5px;
+    width:100%;
+}
+.sobre h3{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+.sobre p{
+    font-size: 20px;
+    padding:5px;
+    text-align: justify;
+    display: flex;
+    justify-content: start;
+}
+.formacion{  
+    width: 100%;
+    padding: 5px;     
+}
+.formacion h3{ font-size: 25px;}
+
+.formacion p{
+    font-size:20px;
+    text-align: justify;
+    padding: 2px;
+}
+
+.discos{  display: flex;
+flex-direction: column;}
+
+h2{font-size: 30px;}
+
+.item{
+    display: flex;
+   flex-direction: column;
+  padding: 5px;
+
+}
+ .tv{
+    font-size: 20px;  
+    width: 80%; 
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+ } 
+ .cine{
+    font-size: 20px;  
+    width: 80%; 
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+ }
+ .teatro{
+    font-size: 20px;  
+    width: 80%; 
+    padding: 10px;
+    margin-left: 45px;
+    margin-bottom: 30px;}
+
+    
+.estrella{
+    width: 80%;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    left: 10%;
+}
+
+.estrella img{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.estrella p{
+    padding: 5px;
+    font-size: 20px;
+    text-justify: center;
+}
